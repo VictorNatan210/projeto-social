@@ -36,6 +36,28 @@ section#telefone {
     background-position: center center;
 }
 
+section#redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+section#redes-sociais > a > img {
+    margin: 5px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais a > img:hover {
+    border: 2px solid #ffffffaf;
+    transform: translate(-5px, 0);
+    transition: transform .2s, border .5s;
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
